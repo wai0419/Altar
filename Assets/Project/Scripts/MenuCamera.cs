@@ -1,18 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MenuCamera : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
+    // 固定旋轉畫面
     void Update()
     {
-        transform.Rotate(0, Time.deltaTime*2, 0);
+        transform.Rotate(0, Time.deltaTime * 2, 0);
     }
 }
